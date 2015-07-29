@@ -1,4 +1,26 @@
+-- to configure username
 git config --global user.name "jeevan"
 
+- to configure email
 git config --global user.email "g1_4all@hotmail.com"
+
+-- to get the status
+git status
+
+-- to add current dir
+git add .
+
+-- to add file
+git add git-configuration.txt
+
+-- to remove from index/cache
+git rm --cached readme.txt
+
+-- to 
+
+-- git commit 
+git commit -m "<message>"
+
+
+
 
