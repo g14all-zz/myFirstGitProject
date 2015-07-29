@@ -1,3 +1,7 @@
+https://github.com/g14all/myFirstGitProject.git
+
+git@github.com:g14all/myFirstGitProject.git
+
 -- to configure username
 git config --global user.name "jeevan"
 
@@ -6,6 +10,8 @@ git config --global user.email "g1_4all@hotmail.com"
 
 -- to get the status
 git status
+
+git status -s
 
 -- to add current dir
 git add .
@@ -21,6 +27,21 @@ git rm --cached readme.txt
 -- git commit 
 git commit -m "<message>"
 
+got commit -a -m "<message>"
+
+-- to get the differences
+git diff
+git diff --cached
+
+git log --oneline
+
+ssh-keygen -t rsa -C "g1_4all@hotmail"
+
+ssh -T git@github.com
+
+git remote add origin git@github.com:g14all/myFirstGitProject.git
+
+git push origin master
 
 
 
