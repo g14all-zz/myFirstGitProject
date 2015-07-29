@@ -41,7 +41,7 @@ ssh -T git@github.com
 
 git remote add origin git@github.com:g14all/myFirstGitProject.git
 
-git push origin master f
+git push origin master
 
 
 
